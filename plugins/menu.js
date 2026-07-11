@@ -38,7 +38,7 @@ async (conn, mek, m, { from, pushname, prefix, reply }) => {
         else if (time >= 12 && time < 17) greeting = "Good Afternoon";
         else if (time >= 17 && time < 20) greeting = "Good Evening";
 
-        const menuText = `╭─── « 𝐓ʜᴜʜɪ 𝐌ᴅ 𝐯𝟏 » ───⟡
+        const menuText = `╭─── « 𝐐ᴜᴇᴇɴ 𝐍ᴇꜱʜᴜ 𝐌ᴅ » ───⟡
 │
 │ ⊳ *𝗛𝗶 ${pushname}, ${greeting}!*
 │
