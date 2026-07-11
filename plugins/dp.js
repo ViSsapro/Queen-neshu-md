@@ -42,7 +42,7 @@ async (conn, mek, m, { from, args, q, isOwner, reply, sender }) => {
         let ppUrl = await conn.profilePictureUrl(targetJid, 'image');
         let number = targetJid.split('@')[0];
 
-        let caption = `*Type:* Image\n*Dp number info:* +${number}\n\n𝗧𝗛𝗨𝗛𝗜 𝗠𝗗 𝗩𝟬𝟭\n©> ᴩᴏᴡᴇʀᴅ ʙʏ ᴛʜᴜʜɪɴᴀ ᴠɪᴍᴜᴋᴛʜɪ ᴡɪᴊᴇʀᴀᴛʜɴᴀ`;
+        let caption = `*Type:* Image\n*Dp number info:* +${number}\n\ɴ𝗤𝗨𝗘𝗘𝗡 𝗡𝗘𝗦𝗛𝗨 𝗠𝗗\n©> ᴩᴏᴡᴇʀᴅ ʙʏ qᴜᴇᴇɴ ʟᴏᴋᴜ ɴᴇꜱʜᴜ`;
 
         await conn.sendMessage(from, {
             image: { url: ppUrl },
